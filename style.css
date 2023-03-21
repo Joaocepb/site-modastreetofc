@@ -77,6 +77,40 @@ head{
     border-radius: 10%;
 }
 
+            /*site loja*/
+
+
+.div-camisas{
+        justify-content: space-around;
+        align-items: center;
+    }   
+    
+.camisas1{
+    height: 36%;
+    width: 12%; 
+    margin: 85px;
+    justify-content: center;
+    border-radius: 10%;
+    text-align: center;
+
+    }
+    .shein-loja{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 12px 56%;
+        list-style: none;
+
+    }
+    .icon-shein{
+
+        width: 58px;
+        margin: 85px;
+        justify-content: center;
+        text-align: center;*/
+    }
+
+
 .rodape{
     text-align: center;
     background: linear-gradient(#635D55, #E2AD07);
@@ -115,6 +149,9 @@ head{
         font-size: 13px;
         margin: 12px 0 0;
     }
+
+
+            /* parte para celular*/
 
 @media screen and (max-width: 580px) {
 .cabecalhologo{
