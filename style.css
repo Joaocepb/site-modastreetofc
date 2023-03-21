@@ -134,7 +134,9 @@ head{
     
 } 
  .look3{
-    height: 35%;
-    width: 26%;
+    height: 25%;
+    width: 35%;
+    margin: 7%;
+    text-align: center;
     }
 }
