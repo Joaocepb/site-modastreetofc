@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+head{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ body{
+    background-color: #635D55;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cabecalho{
+    
+    background-color:#3E4B39 ;
+    /* #3E4B39 ;*/
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: -0px 0px;
+}
+
+.cabecalhologo{
+    width: 4%;
+   margin: 0px -200px;
+
+}
+    
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 10% 57px;
+    font-size: 15px;
+    color: inherit;
+  
+
+}
+.cabecalho-lista-item a{
+    color: white;
+    text-decoration: none;
+}
+.cabecalho-lista-item :hover{
+    font-size: 20px;
+    color: #E2AD07;
+    text-decoration: none;
+    
+}
+.frente{
+    width: 100%;
+    align-items: center;
+
+}
+.titulolooks{
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    margin: 10%;
+}
+.div looks{
+    justify-content: space-around;
+}
+.looks
+    width: 190px;
+    height: 359px;
+    margin: 3% 48px;
+    justify-content: center; 
+}
+.look2{
+    height: 359px;
+    margin: 0px 56px;
+    justify-content: center;
+}
+.look3{
+    height: 36%;
+    width: 12%; 
+    margin: 3% 48px;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.rodape{
+    text-align: center;
+    background: linear-gradient(#635D55, #E2AD07);
+    margin: 56px, 56px;
+    padding: 23px 4px;
+  
+}
+.logo-rodape{
+    width: 130px;
+    margin: -23px -50px;
+}
+.insta{
+    width: 22px;
+    margin: 0px 46px;
+}
+.shein{
+    width: 29px;
+    margin: 0px 23px;
+}
+.paginas-site{
+    display: flex;
+    justify-content: center;
+    margin: 12px 12%;
+    list-style: none;
+  
+   
+    }
+ .titulo-rodape{
+    font-size: 18px;
+    color: white;
+   margin: 2px 0px;
+
+    }
+.copyright {
+        color: #000000;
+        font-size: 13px;
+        margin: 12px 0 0;
+    }
+
+@media screen and (max-width: 580px) {
+.cabecalhologo{
+    width: 13%;
+ margin: 17px;
+}
+
+ .cabecalho-lista-item{
+    text-align: center;
+    margin: 35px;
+    font-size: 13px;
+ }
+.cabecalho-lista-item :hover{
+    font-size: 15px;
+}
+.frente {
+    
+} 
+ .look3{
+    height: 35%;
+    width: 26%;
+    }
+}
