@@ -57,11 +57,13 @@ head{
 }
 .div looks{
     justify-content: space-around;
+    border: #3E4B39;
+    
 }
 .looks
     width: 190px;
     height: 359px;
-    margin: 3% 48px;
+    /*margin: 3% 48px;*/
     justify-content: center; 
 }
 .look2{
@@ -72,9 +74,13 @@ head{
 .look3{
     height: 36%;
     width: 12%; 
-    margin: 3% 48px;
+    margin: 35px;
     justify-content: center;
     border-radius: 10%;
+    
+}
+.looks6{
+    padding: 12px;
 }
 
             /*site loja*/
@@ -176,5 +182,25 @@ head{
     margin: 4%;
   
     text-align: center;
+    
+}
+.looks6{
+    padding: 0%;
+}
+.titulolooks-cel{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin: 10%;
+}
+.camisas1{
+    height: 36%;
+    width: 38%; 
+    margin: 16px;
+    border: 7px;
+    justify-content: center;
+    border-radius: 10%;
+    text-align: center;
+
     }
 }
